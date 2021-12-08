@@ -1240,7 +1240,7 @@ export const EmbedChainInfos: ChainInfo[] = [
     rest: RIZON_REST_ENDPOINT,
     restConfig: RIZON_REST_CONFIG,
     chainId: "titan-1",
-    chainName: "Rizon",
+    chainName: "RIZON",
     stakeCurrency: {
       coinDenom: "ATOLO",
       coinMinimalDenom: "uatolo",
@@ -1249,11 +1249,11 @@ export const EmbedChainInfos: ChainInfo[] = [
     },
     walletUrl:
       process.env.NODE_ENV === "production"
-        ? "https://wallet.keplr.app/#/rizon/stake"
+        ? "https://wallet.cosmostation.io/rizon"
         : "http://localhost:8080/#/rizon/stake",
     walletUrlForStaking:
       process.env.NODE_ENV === "production"
-        ? "https://wallet.keplr.app/#/rizon/stake"
+        ? "https://wallet.cosmostation.io/rizon"
         : "http://localhost:8080/#/rizon/stake",
     bip44: {
       coinType: 118,
